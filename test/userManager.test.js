@@ -68,6 +68,6 @@ describe('User Manager', function () {
         userManager.deleteUsers();
         const users = userManager.getUsers();
 
-        expect(users).to.be.an('array').that.is.empty;
+        expect(users).to.have.empty;
     });
 });
